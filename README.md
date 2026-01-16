@@ -5,6 +5,8 @@
 
 A Claude Code skill for creating production-ready Rust CLI tools that wrap APIs.
 
+Inspired by [anthropics/skills/skill-creator](https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md).
+
 ## Quick Start
 
 ```bash
@@ -84,6 +86,25 @@ my-cli/
 - Python 3.10+
 - Rust 1.75.0+
 - Claude Code CLI
+
+## Applied Patterns
+
+This skill follows the design principles from [anthropics/skills](https://github.com/anthropics/skills):
+
+| Pattern | Description |
+|---------|-------------|
+| **Progressive Disclosure** | SKILL.md is concise; details in `references/` |
+| **Bundled Resources** | `scripts/` for executables, `references/` for docs |
+| **Trigger Keywords** | Description field contains "when to use" context |
+| **Concise Metadata** | ~100 words in frontmatter for discovery |
+
+**Directory Structure:**
+```
+skill-name/
+├── SKILL.md           # Required: metadata + brief instructions
+├── scripts/           # Executable code (init_rust_cli.py)
+└── references/        # Detailed docs loaded on demand
+```
 
 ## License
 
