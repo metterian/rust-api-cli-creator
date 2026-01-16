@@ -184,4 +184,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ## Acknowledgments
 
-Patterns extracted from real-world production CLIs.
+Patterns extracted from:
+- [perplexity-cli](https://github.com/metterian/perplexity-cli)
+- [atlassian-cli](https://github.com/metterian/atlassian-cli)
+- [slack-cli](https://github.com/metterian/slack-cli)
