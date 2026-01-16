@@ -16,7 +16,7 @@ A Claude Code skill for creating production-ready Rust CLI tools that wrap APIs,
 
 ```bash
 # Clone the repository
-git clone https://github.com/piper-hyowon/rust-api-cli-creator.git
+git clone https://github.com/metterian/rust-api-cli-creator.git
 cd rust-api-cli-creator
 
 # Run installer
